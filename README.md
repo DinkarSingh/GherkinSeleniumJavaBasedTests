@@ -2,7 +2,7 @@ Project for test automation of http://automationpractice.com/
 
 Tool and technology Used -
 
-Selenium Webdriver
-java
-Gherkin (Cucumber).
-Page object model.
+1.Selenium Webdriver
+2.java
+3.Gherkin (Cucumber).
+4.Page object model.
