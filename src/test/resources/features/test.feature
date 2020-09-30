@@ -1,7 +1,9 @@
 Feature: LoginFeature
 
+Background: User is on login page
+  Given Shopping home page displaying
+
   Scenario: Create an user account
-    Given Shopping home page displaying
     When Click on 'Sign in' button on home page
     And Enter the email id on text box
     And Click on 'create an account' button
@@ -12,7 +14,6 @@ Feature: LoginFeature
     Then My account page displaying
 
   Scenario: User can login
-    Given Shopping home page displaying
     When Click on 'Sign in' button on home page
     And Enter the User credentials
       | userID                  | password |
@@ -31,7 +32,6 @@ Feature: LoginFeature
     Then Verify product added in the cart
 
   Scenario: Verify that user can checkout
-    Given Shopping home page displaying
     When Click on 'Sign in' button on home page
     And Enter the User credentials
       | userID                  | password |
@@ -42,7 +42,6 @@ Feature: LoginFeature
     Then Verify that choose your payment method process displaying
 
   Scenario: User can see the order listed in his profile
-    Given Shopping home page displaying
     When Click on 'Sign in' button on home page
     And Enter the User credentials
       | userID                  | password |
