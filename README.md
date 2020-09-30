@@ -6,3 +6,4 @@ Tool and technology Used -
 2.java
 3.Gherkin (Cucumber).
 4.Page object model.
+5.javascript.
