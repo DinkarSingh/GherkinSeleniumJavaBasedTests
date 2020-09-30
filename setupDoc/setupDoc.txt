@@ -1,0 +1,5 @@
+Main class: io.cucumber.core.cli.Main
+Glue: Steps
+Feature path: url for folder path of feature file
+Program arguments: --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter
+Work directory: D:\Rakuten\cucumber_selenium
